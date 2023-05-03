@@ -50,15 +50,16 @@ public class PalindromeCheckerTests {
     @DisplayName("When no palindromes are present in the sentence returns no palindromes")
     void checkSentenceWithNoPalindrome() {
         String[] sentence = {"I", "have", "no", "palindromes"};
-        Assertions.assertEquals("No Palindromes",PalindromeChecker.longestPalindrome(sentence));
+        Assertions.assertEquals("No Palindromes", PalindromeChecker.longestPalindrome(sentence));
     }
 
     @Test
     @DisplayName("When a single palindrome is present in the sentence returns palindrome")
     void checkSentenceWithSinglePalindrome() {
         String[] sentence = {"I", "have", "a", "kayak"};
-        Assertions.assertEquals("kayak",PalindromeChecker.longestPalindrome(sentence));
+        Assertions.assertEquals("kayak", PalindromeChecker.longestPalindrome(sentence));
     }
+
     //tests with longest word in different order
     @Test
     @DisplayName("When a sentence contains more than one palindrome of differing lengths the largest is returned")
