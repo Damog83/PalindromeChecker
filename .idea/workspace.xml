@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d91b66a5-e92a-4eae-a52c-a0e00ad5f8f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/dg/PalindromeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/dg/PalindromeCheckerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/dg/PalindromeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/dg/PalindromeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/dg/PalindromeCheckerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/dg/PalindromeCheckerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +24,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2PHoCMK7YRTgguoNvlay4CpHtKK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,13 +42,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/damie/IdeaProjects/IntellijBasics",
+    "last_opened_file_path": "C:/Users/damie/IdeaProjects/PalindromeChecker",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PalindromeCheckerTests.checkPalindrome">
+  <component name="RunManager" selected="JUnit.PalindromeCheckerTests.checkSentenceForMoreThanOnePalindromeOfTheLongestLength">
     <configuration name="PalindromeCheckerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PalindromeCheccker" />
       <extension name="coverage">
@@ -62,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeCheckerTests.checkForNonPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeCheckerTests.checkPalindromeWithLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PalindromeCheccker" />
       <extension name="coverage">
         <pattern>
@@ -72,13 +74,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.dg" />
       <option name="MAIN_CLASS_NAME" value="com.sparta.dg.PalindromeCheckerTests" />
-      <option name="METHOD_NAME" value="checkForNonPalindrome" />
+      <option name="METHOD_NAME" value="checkPalindromeWithLoop(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeCheckerTests.checkPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeCheckerTests.checkSentenceForMoreThanOnePalindromeOfTheLongestLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PalindromeCheccker" />
       <extension name="coverage">
         <pattern>
@@ -88,7 +90,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.dg" />
       <option name="MAIN_CLASS_NAME" value="com.sparta.dg.PalindromeCheckerTests" />
-      <option name="METHOD_NAME" value="checkPalindrome(java.lang.String)" />
+      <option name="METHOD_NAME" value="checkSentenceForMoreThanOnePalindromeOfTheLongestLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeCheckerTests.checkSentenceWithSinglePalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PalindromeCheccker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.dg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.dg" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.dg.PalindromeCheckerTests" />
+      <option name="METHOD_NAME" value="checkSentenceWithSinglePalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeCheckerTests.checkSentenceWithTwoPalindromesOfSameLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PalindromeCheccker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.dg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.dg" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.dg.PalindromeCheckerTests" />
+      <option name="METHOD_NAME" value="checkSentenceWithTwoPalindromesOfSameLength" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,9 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PalindromeCheckerTests.checkPalindrome" />
-        <item itemvalue="JUnit.PalindromeCheckerTests.checkForNonPalindrome" />
+        <item itemvalue="JUnit.PalindromeCheckerTests.checkSentenceForMoreThanOnePalindromeOfTheLongestLength" />
+        <item itemvalue="JUnit.PalindromeCheckerTests.checkSentenceWithTwoPalindromesOfSameLength" />
+        <item itemvalue="JUnit.PalindromeCheckerTests.checkSentenceWithSinglePalindrome" />
         <item itemvalue="JUnit.PalindromeCheckerTests" />
+        <item itemvalue="JUnit.PalindromeCheckerTests.checkPalindromeWithLoop" />
       </list>
     </recent_temporary>
   </component>
